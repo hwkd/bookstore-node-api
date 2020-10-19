@@ -1,0 +1,25 @@
+### Create book
+POST /books HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+  "title": "Hte Honest Book",
+  "description": "Some book description"
+}
+
+### Update book
+POST /books/18 HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+  "id": 18,
+  "title": "The Book",
+  "description": "Some book description"
+}
+
+### Get books
+GET /books HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json

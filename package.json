@@ -1,0 +1,32 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node -r dotenv/config dist/main.js dotenv_config_path=.env.local",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "winston": "^3.3.3",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.8",
+    "@types/lodash": "^4.14.162",
+    "@types/morgan": "^1.9.1",
+    "@types/yup": "^0.29.8",
+    "chokidar-cli": "^2.1.0"
+  }
+}
